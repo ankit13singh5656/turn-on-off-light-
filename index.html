@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   
+    <h1>Click the light bulb to turn on/off the light</h1>
+    <section>
+    <img src="offlight.png" alt="off" id="bulb" width="130">
+    <div class="btn_container"><button id="on" class="bulb" onclick="onlight()">on</button>
+    <button id="off" class="bulb" onclick="offlight()">off</button></div>
+</section>
+    <script>
+        function onlight(){
+            document.getElementById('bulb').src="onlight.png";
+        }
+        function offlight(){
+            document.getElementById('bulb').src="offlight.png";
+        }
+    </script>
+
+</body>
+</html>

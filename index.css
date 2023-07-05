@@ -1,0 +1,32 @@
+h1{
+    height: 100px;
+    width: 100%;
+    background: #ade1ec;
+    color: #3f3f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; 
+
+}
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn_container{
+    margin-top: 50px;
+}
+.bulb{
+    width: 150px;
+            height: 50px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background: #34dab4;
+            font-size: 30px;
+}
+
